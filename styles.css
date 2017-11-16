@@ -1,0 +1,84 @@
+/*naviagtion bar*/
+.navbar .navbar-brand {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+}
+
+.jumbotron {
+  /*background-image: url('./images/jumbo-bg.jpg');*/
+  background-size: cover;
+}
+
+.mustard {background-color: #f4bc42;}
+
+.moto {font-family: 'Roboto Mono', monospace;
+
+}
+.button {
+    background-color: #f4bc42;
+    border: none;
+    color: black;
+    padding: 35px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+}
+/*changed font to moto-dark*/
+body {
+	font-family: sans-serif;
+	background: #384047;
+}
+h1 {
+	color: #fff;
+	text-align: center
+}
+
+ul {
+	list-style:none;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	max-width: 780px;
+	text-align: center;
+}
+ul li {
+	display: inline-block;
+	padding: 8px;
+	background:white;
+	margin:10px;
+}
+ul li img {
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+/*lightbox css begins*/
+/*changed overlay color*/
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  display:none;
+  text-align:center;
+  transition: all 0.5s ease;
+}
+
+#overlay img {
+ margin-top: 10%;
+ max-height: 50%;
+ max-width: 50%;
+}
+
+#overlay p {
+ color:white;
+}
